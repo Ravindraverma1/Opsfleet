@@ -4,13 +4,6 @@
 2. KUBERNETES_VERSION = 1.29
 3. AWS_CLI_VERSION = > 2.0.0
 
-##  Outputs:
-![k8s1](SS/cluster-creation.png)
-![k8s2](SS/console-cluster.png)
-![k8s3](SS/namespace-pod-s3-access.png)
-![k8s4](SS/oidc.png)
-![k8s5](SS/s3-policy.png)
-![k8s6](SS/s3.png)
 
 ## Steps to create AWS Eks cluster.
 
@@ -41,3 +34,10 @@ Terraform will prompt you to confirm the planned actions. Enter yes to proceed w
 Wait for Terraform to provision the resources. The process may take several minutes, depending on the complexity of your configuration and the AWS infrastructure.
 
 
+##  Outputs:
+![k8s1](SS/cluster-creation.png)
+![k8s2](SS/console-cluster.png)
+![k8s3](SS/namespace-pod-s3-access.png)
+![k8s4](SS/oidc.png)
+![k8s5](SS/s3-policy.png)
+![k8s6](SS/s3.png)
