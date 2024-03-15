@@ -14,11 +14,6 @@
 
 ## Steps to create AWS Eks cluster.
 
-1. Fill  the respective values in the terraform.tfvars
-2. terraform init
-3. terraform plan
-4. terraform apply
-
 1) Fill in Terraform Variables:
 Open the terraform.tfvars file.
 Fill in the respective values for your AWS environment, including aws_region, cluster_name, instance_type, etc. Ensure all required variables are correctly configured.
